@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------HEADER-SECTION----------- */
+/* ------------------------------ */
+
+header {
+    background-color: #636C79;
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 0 6%;
+}
+
+
+.logo img {
+    display: inline-block;
+    width: 8rem;
+    margin-top: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #ffffff;
+
+}
+
+.nav-btn  {
+    text-align: end;
+    margin-top: 1.5rem;
+}
+
+.nav-btn button {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: 1px solid #80848A;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+.header-info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 4rem;
+}
+
+.header-image {
+    margin-top: 4rem;
+}
+
+.header-image img {
+    display: inline-block;
+    width: 25rem;
+    height: 30rem;
+}
+
+
+.header-info {
+    position: relative;
+    top: 20%;
+    color: #ffffff;
+    
+}
+
+.header-heading {
+    font-size: 4rem;
+}
+
+.header-para {
+    color: #CCCFD3;
+    margin: 2rem 0;
+    word-spacing: 2px;
+    font-size: 1.1rem;
+    
+}
+
+
+.form-email {
+    background-color: #ffffff;
+    margin-right: 7rem;
+}
+
+.form-email input {
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 1rem;
+    padding-right: 7rem;
+    background-color: #ffffff;
+    border: none;
+}
+
+.gen-btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    background-color: #8BB7A2;
+    margin: 0.3rem 0.3rem 0.3rem 0;
+    border:none;
+    
+}
+
+
+
+
+
+
+/* ------------------------------ */
+/* ---------STATS-SECTION----------- */
+/* ------------------------------ */
+
+/* .stats-info {
+    margin: 5rem 7rem;
+} */
+
+.stats-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.stats-number {
+    display: flex;
+    justify-content: space-around;
+   
+    margin: 0 10%;
+}
+
+.stats-number h2 p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.stats-number h2 span {
+    color: #454545;
+    font-size: 1rem;
+}
+
+.stats-img img {
+    display: inline-block;
+    width: 100%;
+    height: 35rem;
+    margin: 5rem 0;
+    
+}
+
+
+
+
+/* ------------------------------ */
+/* ---------PROGRAMS-SECTION----------- */
+/* ------------------------------ */
+
+.program {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 7rem 0;
+}
+
+.programs-section {
+    margin-bottom: 5rem; 
+}
+
+.programs-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.program-img {
+    text-align: end;
+}
+
+.program-img img {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;   
+}
+
+.program-info h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    margin-top: 4rem;
+}
+
+.program-info p {
+    margin: 2rem 0;
+}
+
+.left-img {
+    text-align: start;
+}
+
+
+
+/* ------------------------------ */
+/* ---------TEAM-SECTION----------- */
+/* ------------------------------ */
+
+.team-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
+.team-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.team-info p {
+    font-size: 1.2rem;
+}
+
+
+.team-persons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.team-person {
+    
+    width:100%;
+}
+
+.team-persons .team-person:nth-child(2) {
+    margin: 0 4rem;
+}
+
+.team-person img {
+    display: inline-block;
+    width: 20rem;
+    height: 25rem;
+}
+
+.team-person h4 {
+    font-family: sans-serif;
+     font-size: 1.2rem;
+     margin: 1rem 0;
+     font-weight: bold;
+}
+
+
+.seemore-btn {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+/* ------------------------------ */
+/* ---------FOOTER----------- */
+/* ------------------------------ */
+
+footer {
+    background-color: #10181D;
+    color: #ffffff;
+    width: 100%;
+
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #282F34;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+
+.media-icons {
+    margin: 1.5rem 0;
+    
+}
+
+.media-icons a {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    margin: 0 0.3rem;
+    background-color: #282F34;
+}
+
+.media-icons a:first-child {
+    padding: 0.5rem 0.8rem;
+}
+
+.media-icons a:nth-child(2) { 
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(3) { 
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(4) {
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(5) {
+    padding: 0.5rem 0.5rem;
+}
+
+
+.link-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.box {
+    list-style: none;
+}
+
+.link_name {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 1rem 0;
+    position: relative;
+    
+}
+
+
+.box li a {
+    display: inline-block;
+    text-decoration: none;
+    color:#919497;
+    font-weight: 100;
+    margin: 0.3rem 0;
+}
+
+
+
+
