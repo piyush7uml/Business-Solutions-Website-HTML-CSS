@@ -366,3 +366,520 @@ footer {
 
 
 
+/* ----------------RESPONSIVE USING MEDIA QUERIES----------------- */
+
+
+
+/* ----------------LARGER-SCREEN---------------------- */
+
+
+@media screen and (max-width: 1400px) {
+
+    .container {
+        width: 86%;
+        margin: 0 auto;
+    }
+
+
+     /* ------------------HEADER----------------- */
+   
+    header {
+        background-color: #636C79;
+        padding-bottom: 2rem;
+    }
+
+    .header-info {
+        position: relative;
+        top: 10%;
+        color: #ffffff;
+        
+    }
+
+
+    .header-heading {
+        font-size: 3rem;
+    }
+
+    .form-email {
+        background-color:inherit;
+        margin-right: 7rem;
+    }
+    
+    .form-email input {
+        display: block;
+        padding: 1rem;
+        margin-left: 0;
+        padding-right: 7rem;
+        background-color: #ffffff;
+        border: none;
+    }
+    
+    .gen-btn{
+        display: block;    
+        padding: 1rem 2rem;
+        color: #ffffff;
+        background-color: #8BB7A2;
+        margin: 0.3rem 0.3rem 0.3rem 0;
+        border:none;
+        
+    }
+}
+
+
+
+
+   /* -------------MEDIUM-SCREEN------------------------- */
+
+
+@media screen and (max-width: 1000px) {
+
+
+    .container {
+        width: 75%;
+        margin: 0 auto;
+    }
+         
+        /* ------------NAVBAR---------------- */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 6%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 2rem;
+    }
+
+
+    nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 1rem;
+        margin-top: 1rem;
+        color: #ffffff;
+    
+    }
+
+
+
+    /* ------------------HEADER----------------- */
+
+    .header-info-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 4rem;
+        margin-top: 4rem;
+    }
+    
+    .header-image {
+        padding-top: 2rem;
+        margin: 0 auto
+    }
+    
+    .header-image img {
+        display: inline-block;
+         width: 100%;
+         height: auto;
+    }
+    
+    /* ---------STATS-SECTION----------- */
+/* ------------------------------ */
+
+.stats-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.stats-number {
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 0 3%;
+}
+
+.stats-number h2 p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.stats-img img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 3rem 0;
+    
+}
+
+
+/* ---------PROGRAMS-SECTION----------- */
+/* ------------------------------ */
+
+.program {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 7rem 0;
+}
+
+.program-info  {
+    text-align: center;
+}
+
+ .program .program-info:nth-child(1) , .program .program-info:nth-child(3) {
+     order: 2;
+ }
+
+
+ .program .program-img:nth-child(1) , .program .program-img:nth-child(3) {
+    order: -1;
+}
+
+.programs-section {
+    margin-bottom: 5rem; 
+}
+
+.programs-section h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.program-img {
+    text-align: center;
+}
+
+.program-img img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-height: 30rem; 
+}
+
+.program-info h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    margin-top: 4rem;
+}
+
+.program-info p {
+    margin: 2rem 0;
+}
+
+.left-img {
+    text-align: center;
+}
+
+
+.program-info button {
+    display: block;
+    margin: 0 auto
+    
+}
+
+
+
+/* ---------TEAM-SECTION----------- */
+/* ------------------------------ */
+
+.team-section {
+    margin-bottom: 5rem;
+}
+
+.team-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+}
+
+.team-info h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.team-info p {
+    font-size: 1.1rem;
+}
+
+
+.team-persons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.team-person {
+    
+    width:100%;
+}
+
+.team-persons .team-person:nth-child(2) {
+    margin: 0 0rem;
+}
+
+.team-person img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.team-person h4 {
+    font-family: sans-serif;
+     font-size: 1.2rem;
+     margin: 1rem 0;
+     font-weight: bold;
+}
+
+
+.seemore-btn {
+    display: none;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
+/* ---------FOOTER----------- */
+/* ------------------------------ */
+
+footer {
+    background-color: #10181D;
+    color: #ffffff;
+    width: 100%;
+
+}
+
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #282F34;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+
+.media-icons {
+    margin: 1.5rem 0;
+    
+}
+
+.media-icons a {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    margin: 0 0.3rem;
+    background-color: #282F34;
+}
+
+.media-icons a:first-child {
+    padding: 0.5rem 0.8rem;
+}
+
+.media-icons a:nth-child(2) { 
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(3) { 
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(4) {
+    padding: 0.5rem 0.6rem;
+}
+
+.media-icons a:nth-child(5) {
+    padding: 0.5rem 0.5rem;
+}
+
+
+.link-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+.box {
+    list-style: none;
+}
+
+.link_name {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 1rem 0;
+    position: relative;
+    
+}
+
+
+.box li a {
+    display: inline-block;
+    text-decoration: none;
+    color:#919497;
+    font-weight: 100;
+    margin: 0.3rem 0;
+}
+
+
+}
+
+
+
+
+
+/* -----------------SMALL-SCREEN---------------- */
+
+
+@media screen and (max-width: 740px) { 
+
+    .container {
+        width: 86%;
+        margin: 0 auto;
+    }
+
+    /* --------------HEADER------------- */
+
+
+    header {
+        background-color: #636C79;
+        padding-bottom: 2rem;
+    }
+
+    .header-info {
+        position: static;
+        margin-top: 2rem;
+        color: #ffffff;
+        width:90%;
+    }
+
+    .header-info-section {
+        display: block;
+        padding-bottom: 4rem;
+        margin-top: 2.5rem;
+    }
+
+    
+
+    .header-heading {
+        font-size: 2.2rem;
+        
+    }
+
+    .header-image {
+        width:100%;
+        padding-top: 2rem;
+        margin: 0 auto
+    }
+    
+    .header-image img {
+        display: block;
+         width: 100%;
+
+         margin: 0 auto;
+    }
+   
+
+
+     /* ---------STATS-SECTION----------- */
+/* ------------------------------ */
+
+.stats-heading {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.stats-number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin: 0 0;
+}
+
+.stats-number h2 {
+    margin: 1rem 0.5rem;
+}
+
+.stats-number h2 p {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.stats-number h2 span {
+    color: #454545;
+    font-size: 0.9rem;
+}
+
+.stats-img img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-height: 25rem;
+    margin: 2.5rem 0;
+    
+}
+
+
+
+/* ---------PROGRAM-SECTION----------- */
+/* ------------------------------ */
+
+.program-info h2 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    margin-top: 2rem;
+}
+
+
+
+
+/* ---------TEAM-SECTION----------- */
+/* ------------------------------ */
+
+.team-section {
+    margin-bottom: 5rem;
+}
+
+.team-info {
+    display: block;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.team-info h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.team-info p {
+    font-size: 1rem;
+}
+
+
+.team-persons {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+}
